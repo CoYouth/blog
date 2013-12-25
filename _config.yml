@@ -1,0 +1,20 @@
+baseurl:          /su
+
+markdown:         rdiscount
+pygments:         true
+paginate:         4
+
+title:            学生之家－中国海洋大学学生会
+url:              http://coyouth.github.io/su
+feed:             /atom.xml
+author:
+    name:         中国海洋大学学生会网络部
+    email:        oucwlb@126.com
+
+indexContent:     true
+favicon:          /favicon.ico
+
+notice:           【公告】测试使用期，欢迎到<a href="http://coyouth.github.io/su/guests.html">此处</a>提意见！
+
+copyright:        Copyright Student Union － Ocean University of China All rights reserved.
+

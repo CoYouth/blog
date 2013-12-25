@@ -1,0 +1,12 @@
+---
+layout: post
+title: CoYouth Blog
+description: CoYouth Blog
+---
+<h3>Recent blog</h3>
+{% for rpost in paginator.posts %}
+<article>
+  <p class="post-title"><a href="/blog{{ rpost.url }}" title="{{ rpost.title }}" rel="bookmark">{{ rpost.title }}</a></p>
+  <p class="time"><time pubdate="{{ rpost.date }}">{{ rpost.date | date_to_string }}</time></p>
+</article>
+{% endfor %}
